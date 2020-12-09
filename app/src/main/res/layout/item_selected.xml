@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_selected"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableEnd="@drawable/ic_drop"
+    android:padding="10dp"
+    android:text="Dia diem"
+    android:textColor="#151515"
+    android:textSize="18sp" />
+
+
+

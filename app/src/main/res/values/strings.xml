@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">The Coffee House</string>
+    <string name="api_key" translatable="false">AIzaSyArDfi6xqaR3tbGkJov0I08y4eYV9KnrSI</string>
+</resources>

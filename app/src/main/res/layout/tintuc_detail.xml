@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="#fff"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/ic_back_1" />
+
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:text="Đăng nhập Đăng nhập Đăng nhập Đăng nhập Đăng nhập Đăng nhậpĐăng "
+            android:maxLines="1"
+            android:textAllCaps="false"
+            android:textColor="#333"
+            android:textSize="14sp"></TextView>
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_share_1" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/toolbar"
+        android:background="#717171" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <ImageView
+                android:id="@+id/anhbaiviet"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/my" />
+
+            <TextView
+                android:id="@+id/h1_tieude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Giảm 50%, thèm gì gọi nhé Nhà mang tới liền"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text="7 tháng 12, 2020"
+                android:textColor="#3A3A3A" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Hòa vào không khí siêu sale cuối năm, mời Team mình nghĩ tay gọi món yêu thích, Nhà giảm 50% khi nhập mã MERRY50 - để lên tinh thần săn thoăn thắt cùng:" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_done"
+                android:drawablePadding="4dp"
+                android:text="Trà sữa chân ái." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_done"
+                android:drawablePadding="4dp"
+                android:text="Trà trái cây mát lạnh" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_done"
+                android:drawablePadding="4dp"
+                android:text="Trà Macchiato thơm béo" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Shipper Nhà rộn ràng chờ bạn đặt là giao liền tận nơi, chỉ 30 phút và Freeship luôn nha. Sướng team săn sale rồi, order liền thôi" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/toolbar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#717171" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Hạn sử dụng ưu đãi: 08/12 -12/12." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Ưu đãi giảm 50%, tối đa 40k áp dụng cho Trà trái cây, Trà sữa, Macchito. Không áp dụng cho bình giữ nhiệt, túi vải ly sứ, ống hút inox, topping, các nhóm combo." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Ưu đãi áp dụng cho đơn hàng giao tận nơi, không áp dụng song song với chương trình khuyến mãi khác." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Ưu đãi có thể kết thúc sớm hơn dự kiến" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
